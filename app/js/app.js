@@ -6,10 +6,9 @@ angular.module('myApp', [
     ])
     .config(['$routeProvider', function($routeProvider) {
       $routeProvider.when('/', {templateUrl: 'partials/home.html', controller: 'HomeCtrl' });
-      $routeProvider.when('/cv', {templateUrl: 'partials/cv.html'});
-      $routeProvider.when('/biography', {templateUrl: 'partials/bio.html'});
-      $routeProvider.when('/contact', {templateUrl: 'partials/contact.html'});
+      $routeProvider.when('/about', {templateUrl: 'partials/about.html'});
       $routeProvider.when('/city-under-one-roof', {templateUrl: 'partials/home.html', controller: 'CityCtrl' });
       $routeProvider.when('/fool-and-the-world', {templateUrl: 'partials/home.html', controller: 'FoolCtrl' });
+      $routeProvider.when('/home-and-away', {templateUrl: 'partials/home.html', controller: 'AwayCtrl' });
       $routeProvider.otherwise({redirectTo: '/'});
     }]);
