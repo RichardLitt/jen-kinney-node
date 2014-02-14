@@ -21,10 +21,10 @@ angular.module('myApp')
           {src: '4JKinney_Annie_Web.jpg'},
           {src: '5JKinney_McKinley_Web.jpg'},
           {src: '6JKinney_Heaven_Web.jpg'},
-          /* {src: '7JKinney_Ice_Web.jpg'}, */
+          {src: '7JKinney_Ice_Web.jpg'},
           {src: '8JKinney_Terry_Web.jpg'},
           {src: '9JKinney_AmericanFlag_Web.jpg'},
-          /* {src: '10JKinney_Dut_Web.jpg'}, */
+          {src: '10JKinney_Dut_Web.jpg'},
           {src: '11JKinney_Car_Web.jpg'},
           {src: '12JKinney_Wallpaper_Web.jpg'},
           {src: '13JKinney_Doug_Web.jpg'},
@@ -33,7 +33,7 @@ angular.module('myApp')
           {src: '16JKinney_BTILounge_Web.jpg'},
           {src: '17JKinney_Whittier_Web.jpg'},
           {src: '18JKinney_TiandDemetrius_web.jpg'},
-          /* {src: '19JKinney_Crab_web.jpg'}, */
+          {src: '19JKinney_Crab_web.jpg'},
           {src: '20JKinney_Cynthia_Web.jpg'},
           {src: '21JKinney_Snow_Web.jpg'},
           {src: '22JKinney_Gabe_Web.jpg'},
