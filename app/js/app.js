@@ -5,7 +5,7 @@ angular.module('myApp', [
       'ngRoute', 'ngAnimate'
     ])
     .config(['$routeProvider', function($routeProvider) {
-      $routeProvider.when('/', {templateUrl: 'partials/home.html', controller: 'HomeCtrl' });
+      $routeProvider.when('/', {templateUrl: 'partials/splash.html', controller: 'HomeCtrl' });
       $routeProvider.when('/about', {templateUrl: 'partials/about.html'});
       $routeProvider.when('/city-under-one-roof', {templateUrl: 'partials/home.html', controller: 'CityCtrl' });
       $routeProvider.when('/fool-and-the-world', {templateUrl: 'partials/home.html', controller: 'FoolCtrl' });

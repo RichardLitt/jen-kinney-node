@@ -5,7 +5,7 @@ angular.module('myApp')
         $rootScope.gallery_src = 'img';
 
         $scope.images = [{
-            src: 'banner.jpg'
+            src: 'banner_bigger.jpg'
         }];
 
     }])

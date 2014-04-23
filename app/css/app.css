@@ -85,6 +85,11 @@ h4.logo {
   .slide img {
     height: 550px; }
 
+#splash img { 
+  height: auto;
+  max-width: 600px;
+}
+
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0; }
