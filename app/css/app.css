@@ -87,6 +87,7 @@ h4.logo {
 
 #splash img { 
   height: auto;
+  max-width: 800px;
 }
 
 @-webkit-keyframes fadeIn {
