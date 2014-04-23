@@ -4,6 +4,8 @@ angular.module('myApp')
 
         $rootScope.gallery_src = 'img';
 
+        $rootScope.banner = true;
+
         $scope.images = [{
             src: 'banner.jpg'
         }];

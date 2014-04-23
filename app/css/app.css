@@ -85,6 +85,10 @@ h4.logo {
   .slide img {
     height: 550px; }
 
+#splash {
+  margin-top: 20px;
+}
+
 #splash img { 
   height: auto;
   max-width: 580px;
