@@ -7,7 +7,7 @@ angular.module('myApp')
         $rootScope.banner = true;
 
         $scope.images = [{
-            src: 'banner.jpg'
+            src: 'Terry.jpg'
         }];
 
     }])
