@@ -1,11 +1,31 @@
 {
-  "name": "jen-kinney-node",
-  "author": "Richard Littauer <richard@burntfen.com>",
-  "license": "MIT",
+  "name": "jen-kinney",
   "version": "0.0.1",
+  "author": "Richard Littauer <richard@burntfen.com>",
+  "description": "This is the portfolio for the photographer Jen Kinney.",
+  "homepage": "http://jakinney.com",
+  "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardLitt/jen-kinney-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RichardLitt/jen-kinney-node/issues"
+  },
+  "main": "app.js",
   "dependencies": {
     "express": "~3.2.6",
     "jade": "~0.31.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-minify-html": "^0.1.4",
+    "gulp-rev": "^1.0.0",
+    "gulp-sass": "^0.7.2",
+    "gulp-uglify": "^0.3.1",
+    "gulp-usemin": "^0.3.7"
   }
 }
