@@ -15,9 +15,7 @@ your browser.
 
 #### Running the app in production
 
-This really depends on how complex is your app and the overall infrastructure of your system, but
-the general rule is that all you need in production are all the files under the `app/` directory.
-Everything else should be omitted.
+This app is currently maintained and run on a Webfaction server using `forever`. Simply run the `nodejs_app.sh` on the server to keep it up and running.
 
 #### Directory Layout
 
