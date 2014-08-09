@@ -90,19 +90,46 @@ h4.logo {
 .slider {
   position: relative;
   padding: 0;
-  //width: 610px;
-  height: 400px;
+  height: 550px;
   margin: auto;
   margin-top: 16%;
-}
-.slide {
-  img { height: 550px; }
-  position: absolute;
-  top: 0;
-  left: 0;
+  .slide {
+    img {
+      height: 550px;
+    }
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .slider-nav {
+    padding-top: 560px;
+    i {
+      color: rgb(139, 63, 41);  /* Fallback  */
+      color: rgba(139, 63, 41, 0.7);
+      font-weight: 200;
+      &:hover {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+    .previous, .next {
+      padding: 10px;
+    }
+    .next {
+      margin-left: 100px;
+    }
+  }
 }
 
-
+// Only used for the Events Picture.
+// #splash {
+//   margin-top: 20px;
+//   img {
+//     height: auto;
+//     max-width: 580px;
+//   }
+// }
 
 // Key Frames
 
@@ -152,15 +179,15 @@ h4.logo {
     padding: 0;
     height: 400px;
     margin: 0 0 20px 0px;
-  }
-  .slide {
-    padding: 20px 0px;
-    img { 
-      height: auto;
-      width: 100%;
+    .slide {
+      padding: 20px 0px;
+      img { 
+        height: auto;
+        width: 100%;
+      }
+      position: absolute;
+      top: 0;
+      left: 0;
     }
-    position: absolute;
-    top: 0;
-    left: 0;
   }
 }

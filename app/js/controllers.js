@@ -6,6 +6,8 @@ angular.module('myApp')
 
         $rootScope.banner = true;
 
+        $rootScope.splash = true;
+
         $scope.images = [{
             src: 'Terry.jpg'
         }];
@@ -15,6 +17,8 @@ angular.module('myApp')
     .controller('CityCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
 
         $rootScope.gallery_src = 'img/city_under_one_roof';
+
+        $rootScope.splash = false;
 
         $scope.images = [
           {src: '1JKinney_Tunnel_web.jpg'},
@@ -49,6 +53,8 @@ angular.module('myApp')
 
         $rootScope.gallery_src = 'img/fool_and_the_world';
 
+        $rootScope.splash = false;
+
         $scope.images = [
             {src: '1JKinney_Chariot.jpg'},
             {src: '2JKinney_Death.jpg'},
@@ -66,6 +72,9 @@ angular.module('myApp')
     .controller('AwayCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
 
         $rootScope.gallery_src = 'img/home_and_away';
+
+
+        $rootScope.splash = false;
 
         $scope.images = [
           {src: '1%20Campstove.jpg'},
