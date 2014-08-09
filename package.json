@@ -1,5 +1,7 @@
 {
-  "name": "lean",
+  "name": "jen-kinney-node",
+  "author": "Richard Littauer <richard@burntfen.com>",
+  "license": "MIT",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
