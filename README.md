@@ -1,5 +1,7 @@
 # Jen Kinney's Site
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/jen-kinney-node.svg)](https://greenkeeper.io/)
+
 This is the portfolio for the photographer Jen Kinney.
 
 #### Running the app during development
